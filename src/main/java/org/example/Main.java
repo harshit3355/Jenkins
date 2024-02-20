@@ -13,5 +13,8 @@ public class Main {
 		System.out.println("New World");
 		System.out.println("Yo");
 		System.out.println("Hello World");
+		System.out.println("Learning New Things");
+		System.out.println("Hii whats going on in your life");
+
 	}
 }
