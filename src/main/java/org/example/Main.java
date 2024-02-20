@@ -8,5 +8,8 @@ public class Main {
     {
 		System.out.println("Hello world!");
 		sum(5,10);
+
+		System.out.println("New World");
+		System.out.println("Yo");
 	}
 }
