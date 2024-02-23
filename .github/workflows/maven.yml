@@ -23,5 +23,13 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Build and push code to dockerhub
+      uses: mr-smithers-excellent/docker-build-push@v6
+      with:
+        image: harshit3355/javafirst
+        registry: docker.io
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+
 
 
